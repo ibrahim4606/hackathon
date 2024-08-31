@@ -1,0 +1,111 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px;
+  }
+
+  /* login page css */
+
+
+/* home page */
+
+.navbar{
+    height: 8vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #39d7ae,#20b8a3,#20a5a1, #2a5983, #2f3b6f);
+    display:flex;
+    flex-direction: row;
+}
+
+.logo{
+    height: 12vh;
+    width: 21vw;
+    background-image: url(OIG1.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+
+
+/* lets start page css */
+.lets_start_container {
+    font: italic 1.3rem "Fira Sans", serif;
+  }
+
+.lets_start_container hr{
+    border: 1.6px solid black;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: -7.5vmin;
+  }
+  
+  .lets_start_container1{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+  
+  .lets_start_container1 ul{
+    font-size: 1.1rem;
+    width: 40vmax;
+    margin-left: -25px;
+  }
+  
+  .lets_start_container1 img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 30px;
+    right: 14vmax;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 0 15px aqua;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .lets_start_container1 img:hover{
+    transform: scale(1.5);
+  }
+  
+  .lets_start_container2{
+    display: flex;
+    align-items: center;
+  }
+  
+  .lets_start_container2 ul{
+    margin-left: 22vmax;
+    font-size: 1.1rem;
+    width: 40vmax;
+  }
+  
+  .lets_start_container2 img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 20px;
+    left: 11.25vmax;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 0 15px aqua;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .lets_start_container2 img:hover{
+    transform: scale(1.5);
+  }
+  
